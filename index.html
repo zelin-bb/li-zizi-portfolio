@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="李姿孜 - AI 短视频增长运营、YouTube 海外运营、视频运营个人作品集。"
+    />
+    <title>李姿孜 | AI Video Growth Operator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700;900&family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="cursor-dot" aria-hidden="true"></div>
+    <div class="page-progress" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand magnetic" href="#top" aria-label="返回首页">
+        <span>LZZ</span>
+      </a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="#portfolio">作品</a>
+        <a href="#cases">项目</a>
+        <a href="#method">方法</a>
+        <a href="#skills">技能</a>
+        <a href="#timeline">经历</a>
+      </nav>
+      <a class="header-link magnetic" href="mailto:18568388038@163.com">联系</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">AI VIDEO GROWTH OPERATOR</p>
+          <h1 id="hero-title" class="reveal">李姿孜</h1>
+          <p class="hero-role reveal">YouTube 海外运营 / 视频运营</p>
+          <p class="hero-text reveal">
+            专注海外短视频与 AI 内容创作，能从选题、提示词、画面生成、剪辑到数据复盘完成闭环。用更快的生产效率和更敏锐的数据判断，把内容做成可持续迭代的增长项目。
+          </p>
+
+          <div class="hero-actions reveal">
+            <a class="button primary magnetic" href="mailto:18568388038@163.com">
+              发起面试
+              <span aria-hidden="true">-></span>
+            </a>
+            <a class="button ghost magnetic" href="./assets/li-zizi-resume.pdf" target="_blank" rel="noreferrer">
+              下载简历
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="portrait-card tilt-card">
+            <div class="portrait-frame">
+              <img src="./assets/li-zizi-portrait.png" alt="李姿孜证件照" />
+            </div>
+            <div class="portrait-caption">
+              <span>Selected results</span>
+              <strong>30 天开通 YouTube 高级 YPP</strong>
+              <strong>单条爆款视频最高播放 4 亿</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section-shell content-section portfolio-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED WORKS</p>
+          <h2>作品集视频展示</h2>
+        </div>
+
+        <div class="portfolio-toolbar reveal" aria-label="作品分类">
+          <button class="filter-button is-active" type="button" data-filter="all">全部</button>
+          <button class="filter-button" type="button" data-filter="guga">古嘎 IP 视频</button>
+          <button class="filter-button" type="button" data-filter="tk">TK 带货视频</button>
+          <button class="filter-button" type="button" data-filter="youtube">YouTube 视频</button>
+        </div>
+
+        <div class="portfolio-grid reveal">
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="guga"
+            data-title="古嘎视频 01"
+            data-video="./assets/videos/guga-01.mp4"
+            data-poster="./assets/posters/guga-01.jpg"
+          >
+            <span class="video-category">古嘎 IP 视频</span>
+            <img src="./assets/posters/guga-01.jpg" alt="古嘎视频 01 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">古嘎视频 01</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="guga"
+            data-title="古嘎视频 02"
+            data-video="./assets/videos/guga-02.mp4"
+            data-poster="./assets/posters/guga-02.jpg"
+          >
+            <span class="video-category">古嘎 IP 视频</span>
+            <img src="./assets/posters/guga-02.jpg" alt="古嘎视频 02 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">古嘎视频 02</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="tk"
+            data-title="TK 带货 01"
+            data-video="./assets/videos/tk-commerce-01.mp4"
+            data-poster="./assets/posters/tk-commerce-01.jpg"
+          >
+            <span class="video-category">TK 带货视频</span>
+            <img src="./assets/posters/tk-commerce-01.jpg" alt="TK 带货 01 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">TK 带货 01</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="tk"
+            data-title="TK 带货 02"
+            data-video="./assets/videos/tk-commerce-02.mp4"
+            data-poster="./assets/posters/tk-commerce-02.jpg"
+          >
+            <span class="video-category">TK 带货视频</span>
+            <img src="./assets/posters/tk-commerce-02.jpg" alt="TK 带货 02 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">TK 带货 02</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="tk"
+            data-title="TK 带货 03"
+            data-video="./assets/videos/tk-commerce-03.mp4"
+            data-poster="./assets/posters/tk-commerce-03.jpg"
+          >
+            <span class="video-category">TK 带货视频</span>
+            <img src="./assets/posters/tk-commerce-03.jpg" alt="TK 带货 03 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">TK 带货 03</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="tk"
+            data-title="TK 带货 04"
+            data-video="./assets/videos/tk-commerce-04.mp4"
+            data-poster="./assets/posters/tk-commerce-04.jpg"
+          >
+            <span class="video-category">TK 带货视频</span>
+            <img src="./assets/posters/tk-commerce-04.jpg" alt="TK 带货 04 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">TK 带货 04</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="tk"
+            data-title="TK 带货 05"
+            data-video="./assets/videos/tk-commerce-05.mp4"
+            data-poster="./assets/posters/tk-commerce-05.jpg"
+          >
+            <span class="video-category">TK 带货视频</span>
+            <img src="./assets/posters/tk-commerce-05.jpg" alt="TK 带货 05 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">TK 带货 05</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="tk"
+            data-title="TK 带货 06"
+            data-video="./assets/videos/tk-commerce-06.mp4"
+            data-poster="./assets/posters/tk-commerce-06.jpg"
+          >
+            <span class="video-category">TK 带货视频</span>
+            <img src="./assets/posters/tk-commerce-06.jpg" alt="TK 带货 06 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">TK 带货 06</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="tk"
+            data-title="TK 带货 07"
+            data-video="./assets/videos/tk-commerce-07.mp4"
+            data-poster="./assets/posters/tk-commerce-07.jpg"
+          >
+            <span class="video-category">TK 带货视频</span>
+            <img src="./assets/posters/tk-commerce-07.jpg" alt="TK 带货 07 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">TK 带货 07</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="youtube"
+            data-title="YouTube 视频 01"
+            data-video="./assets/videos/youtube-01.mp4"
+            data-poster="./assets/posters/youtube-01.jpg"
+          >
+            <span class="video-category">YouTube 视频</span>
+            <img src="./assets/posters/youtube-01.jpg" alt="YouTube 视频 01 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">YouTube 视频 01</span>
+          </button>
+
+          <button
+            class="video-card tilt-card"
+            type="button"
+            data-category="youtube"
+            data-title="YouTube 视频 02"
+            data-video="./assets/videos/youtube-02.mp4"
+            data-poster="./assets/posters/youtube-02.jpg"
+          >
+            <span class="video-category">YouTube 视频</span>
+            <img src="./assets/posters/youtube-02.jpg" alt="YouTube 视频 02 封面" loading="lazy" />
+            <span class="play-mark" aria-hidden="true">播放</span>
+            <span class="video-title">YouTube 视频 02</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="metric-strip reveal" aria-label="核心成果">
+        <div class="metric-card tilt-card">
+          <span>Followers</span>
+          <strong>30万+</strong>
+          <p>YouTube AI 短视频频道累计粉丝突破</p>
+        </div>
+        <div class="metric-card tilt-card">
+          <span>Views</span>
+          <strong>4亿</strong>
+          <p>单条爆款视频最高播放量</p>
+        </div>
+        <div class="metric-card tilt-card">
+          <span>Launch</span>
+          <strong>1周 500+</strong>
+          <p>小红书 AI IP 新号快速起量</p>
+        </div>
+        <div class="metric-card tilt-card">
+          <span>Loop</span>
+          <strong>全流程</strong>
+          <p>脚本、画面、配音、剪辑、数据优化</p>
+        </div>
+      </section>
+
+      <section id="cases" class="section-shell content-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">FEATURED CASES</p>
+          <h2>把 AI 内容做成可复盘的增长项目</h2>
+        </div>
+
+        <div class="case-grid">
+          <article class="case-card tilt-card reveal">
+            <div class="case-meta">
+              <span>2025.09 - 2025.12</span>
+              <span>独立运营</span>
+            </div>
+            <h3>YouTube AI 短视频频道</h3>
+            <p>
+              从 0 到 1 搭建 AI 泛娱乐短视频频道，持续输出高质量 AI 生成视频，30 天开通 YouTube 高级 YPP。
+            </p>
+            <ul>
+              <li>累计粉丝突破 30 万，单条爆款最高播放 4 亿。</li>
+              <li>通过继续观看率和平均播放时长判断爆款潜力。</li>
+              <li>重点优化视频前三秒，提高内容进入爆款池概率。</li>
+            </ul>
+          </article>
+
+          <article class="case-card accent tilt-card reveal">
+            <div class="case-meta">
+              <span>2026.03 - 至今</span>
+              <span>独立运营</span>
+            </div>
+            <h3>小红书 AI IP 短视频制作</h3>
+            <p>
+              围绕“咕咕嘎嘎”IP 建立 AI 短视频账号，用趣味治愈形象沉淀种子用户，一周粉丝突破 500+。
+            </p>
+            <ul>
+              <li>使用豆包、即梦、Gemini 完成脚本、画面、配音和剪辑。</li>
+              <li>把 IP 形象、内容节奏与平台反馈统一到迭代流程。</li>
+              <li>用 AI 工具提升短视频批量生产与创意测试效率。</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="method" class="section-shell content-section method-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">OPERATING SYSTEM</p>
+          <h2>从趋势到成片的内容生产线</h2>
+        </div>
+
+        <div class="method-grid">
+          <article class="method-step reveal">
+            <span>01</span>
+            <h3>判断趋势</h3>
+            <p>根据平台热点、完播率、平均播放时长和前三秒反馈，筛出值得继续测试的内容方向。</p>
+          </article>
+          <article class="method-step reveal">
+            <span>02</span>
+            <h3>逆向提示词</h3>
+            <p>用 Google AI Studio 拆解爆款视频提示词，复用镜头结构、情绪节奏和画面要素。</p>
+          </article>
+          <article class="method-step reveal">
+            <span>03</span>
+            <h3>AI 生成</h3>
+            <p>用 GPT、Claude、Gemini、Grok、即梦等工具完成脚本、图片和图生视频资产。</p>
+          </article>
+          <article class="method-step reveal">
+            <span>04</span>
+            <h3>剪辑复盘</h3>
+            <p>通过 Pr、Ae、剪映完成成片，再根据数据优化标题、开头、节奏和下一轮选题。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section-shell content-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SKILL MAP</p>
+          <h2>运营、AI 生产与剪辑能力组合</h2>
+        </div>
+
+        <div class="skill-board reveal">
+          <div class="skill-column">
+            <h3>增长运营</h3>
+            <p>海外短视频运营、账号搭建、选题策划、数据分析、爆款判断、收益转化。</p>
+          </div>
+          <div class="skill-column">
+            <h3>AI 内容生成</h3>
+            <p>AI 剧情短视频、带货短视频、提示词系统、图像生成、图生视频、IP 形象生成。</p>
+          </div>
+          <div class="skill-column">
+            <h3>视频制作</h3>
+            <p>Pr、Ae、剪映剪辑，短视频拍摄、配音、拼接、节奏控制与平台适配。</p>
+          </div>
+        </div>
+
+        <div class="chip-cloud reveal" aria-label="技能标签">
+          <span>YouTube Shorts</span>
+          <span>小红书起号</span>
+          <span>即梦</span>
+          <span>Gemini</span>
+          <span>Grok</span>
+          <span>GPT</span>
+          <span>Claude</span>
+          <span>Google AI Studio</span>
+          <span>Pr</span>
+          <span>Ae</span>
+          <span>剪映</span>
+          <span>CET4</span>
+        </div>
+      </section>
+
+      <section id="timeline" class="section-shell content-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">BACKGROUND</p>
+          <h2>视觉设计背景，内容运营落地</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <time>2024.09 - 2026.06</time>
+            <div>
+              <h3>咸阳师范学院</h3>
+              <p>视觉传达设计，本科。以设计基础支撑内容审美、画面构图与短视频视觉判断。</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <time>2021.09 - 2024.06</time>
+            <div>
+              <h3>西安思源学院</h3>
+              <p>数字媒体艺术设计，专科。建立视频、视觉与数字媒体制作基础。</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <time>2024.05 - 2024.09</time>
+            <div>
+              <h3>洛阳泽若商贸有限公司 · 广告推广</h3>
+              <p>协助剪辑广告视频，运营抖音账号，根据点击率、转化率数据迭代素材，提升投放效果。</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <time>2021.10 - 2023.05</time>
+            <div>
+              <h3>校园融媒体中心 · 制作运营</h3>
+              <p>负责学校官方抖音、公众号、视频号日常运营，包括选题策划、短视频拍摄剪辑、文案撰写及发布。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section reveal">
+        <div>
+          <p class="eyebrow">CONTACT</p>
+          <h2>寻找能把 AI 内容跑出增长的人？</h2>
+          <p>
+            我可以负责从内容方向、提示词、视频资产到数据复盘的完整链路，适合 YouTube 海外运营、视频运营与 AI 内容制作岗位。
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary magnetic" href="mailto:18568388038@163.com">18568388038@163.com</a>
+          <a class="button ghost magnetic" href="tel:18568388038">18568388038</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>李姿孜 Portfolio</span>
+      <span>Built for AI video growth roles</span>
+    </footer>
+
+    <div class="video-modal" hidden aria-hidden="true">
+      <div class="video-modal-backdrop" data-close-video></div>
+      <div class="video-dialog" role="dialog" aria-modal="true" aria-labelledby="video-modal-title">
+        <div class="video-dialog-header">
+          <div>
+            <p class="eyebrow">PREVIEW</p>
+            <h2 id="video-modal-title">作品预览</h2>
+          </div>
+          <button class="modal-close" type="button" data-close-video aria-label="关闭预览">关闭</button>
+        </div>
+        <video class="modal-video" controls playsinline preload="metadata"></video>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
